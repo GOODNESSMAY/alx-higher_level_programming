@@ -4,16 +4,16 @@
 
 /**
 * struct listint_s - singly linked list programm
-* @g: int
-* @may: points to next node
+* @n: int
+* @next: points to next node
 *
 * Description: singly linked list node struct progamm
 * 
 */
 typedef struct listint_s
 {
-int g;
-struct listint_s *may;
+int n;
+struct listint_s *next;
 } listint_t;
 
 size_t print_listint(const listint_t *h);
