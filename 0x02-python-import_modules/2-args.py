@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-
-    import sys
+import sys
 
 number = len(sys.argv) - 1
 if number == 0:
@@ -9,5 +8,5 @@ elif number == 1:
     print("1 arg:")
 else:
     print("{} arg:".format(number))
-for i in range(number):
+for m in range(number):
     print("{}: {}".format(m + 1, sys.argv[m + 1]))
