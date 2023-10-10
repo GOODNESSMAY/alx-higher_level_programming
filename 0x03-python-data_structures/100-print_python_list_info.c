@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "Python.h"
-#include "python.h"
-#include "python.h"
+#include "object.h"
+#include "listobject.h"
 /**
  * print_python_list_info - Print basic info of Python lists
  * @p: PyObject of the program
