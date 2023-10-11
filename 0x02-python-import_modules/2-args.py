@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-if__name__ == "__main__":
+if __name__ == "__main__":
 
     import sys
 
@@ -13,4 +13,3 @@ if__name__ == "__main__":
         print("{} arguments:".format(number))
     for m in range(number):
         print("{}: {}".format(m + 1, sys.argv[m + 1]))
-
