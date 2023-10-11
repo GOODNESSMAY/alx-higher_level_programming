@@ -6,7 +6,7 @@ def magic_calculation(a, b):
 
     if a < b:
         m = add(a, b)
-        for g in range(4, 6):
+        for i in range(4, 6):
             m = add(m, i)
         return (m)
 
