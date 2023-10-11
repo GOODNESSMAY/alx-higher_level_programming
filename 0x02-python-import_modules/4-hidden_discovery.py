@@ -2,6 +2,7 @@
 if __name__ == "__main__":
 
     import hidden_4
-    for g in dir(hidden_4):
-        if g[:2] != "__":
-            print("{g:}".format(g))
+    may = dir(hidden_4)
+    for name in may:
+        if name[:2] != "__":
+            print(name)
