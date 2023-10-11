@@ -1,17 +1,13 @@
 #!/usr/bin/python3
 import sys
 
-def argument_returned():
-  number = len(sys.argv) - 1
-  if number == 0:
-    print("No arguments were passed.")
-  elif number == 1:
-    print("1 argument was passed:")
-    print(sys.argv[1])
-  else:
-    print(f"{argument_returned} arguments were passed:")
-  for arg in sys.argv[1:]:
-    print(arg)
+number = len(sys.argv) - 1
+if number == 0:
+    print("0 arguments.")
+elif number == 1:
+    print("1 argument:")
+else:
+    print("{} arguments:".format(number))
+for m in range(number):
+    print("{}: {}".format(m + 1, sys.argv[m + 1]))
 
-
-argument_returned()
